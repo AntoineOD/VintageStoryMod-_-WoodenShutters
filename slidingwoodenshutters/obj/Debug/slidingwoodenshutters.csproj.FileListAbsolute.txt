@@ -1,0 +1,14 @@
+E:\VintageStoryMods\slidingwoodenshutters\slidingwoodenshutters\bin\Debug\Mods\mod\modinfo.json
+E:\VintageStoryMods\slidingwoodenshutters\slidingwoodenshutters\bin\Debug\Mods\mod\modicon.png
+E:\VintageStoryMods\slidingwoodenshutters\slidingwoodenshutters\bin\Debug\Mods\mod\slidingwoodenshutters.deps.json
+E:\VintageStoryMods\slidingwoodenshutters\slidingwoodenshutters\bin\Debug\Mods\mod\slidingwoodenshutters.dll
+E:\VintageStoryMods\slidingwoodenshutters\slidingwoodenshutters\bin\Debug\Mods\mod\slidingwoodenshutters.pdb
+E:\VintageStoryMods\slidingwoodenshutters\slidingwoodenshutters\obj\Debug\slidingwoodenshutters.csproj.AssemblyReference.cache
+E:\VintageStoryMods\slidingwoodenshutters\slidingwoodenshutters\obj\Debug\slidingwoodenshutters.GeneratedMSBuildEditorConfig.editorconfig
+E:\VintageStoryMods\slidingwoodenshutters\slidingwoodenshutters\obj\Debug\slidingwoodenshutters.AssemblyInfoInputs.cache
+E:\VintageStoryMods\slidingwoodenshutters\slidingwoodenshutters\obj\Debug\slidingwoodenshutters.AssemblyInfo.cs
+E:\VintageStoryMods\slidingwoodenshutters\slidingwoodenshutters\obj\Debug\slidingwoodenshutters.csproj.CoreCompileInputs.cache
+E:\VintageStoryMods\slidingwoodenshutters\slidingwoodenshutters\obj\Debug\slidingwoodenshutters.dll
+E:\VintageStoryMods\slidingwoodenshutters\slidingwoodenshutters\obj\Debug\refint\slidingwoodenshutters.dll
+E:\VintageStoryMods\slidingwoodenshutters\slidingwoodenshutters\obj\Debug\slidingwoodenshutters.pdb
+E:\VintageStoryMods\slidingwoodenshutters\slidingwoodenshutters\obj\Debug\ref\slidingwoodenshutters.dll

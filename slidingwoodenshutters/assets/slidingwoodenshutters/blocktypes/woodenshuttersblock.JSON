@@ -1,0 +1,102 @@
+{
+    "code": "woodenshutters",
+    "class": "woodenshuttersandmore.slidingwoodenshutters",
+    "entityClass": "BEWoodenShutters",
+    "creativeinventory": { "general": [ "woodenshutters-north-left-*" ] },
+
+    "behaviors": [
+        { "name": "BlockEntityInteract" },
+        { "name": "HorizontalOrientable" }
+    ],
+    "variantgroups": [
+        {
+            "code": "side",
+            "loadFromProperties": "abstract/horizontalorientation"
+        },
+        {
+            "code": "state",
+            "states": [ "left", "right" ]
+        },
+        {
+            "code": "wood",
+            "states": [ "aged" ],
+            "loadFromProperties": "game:block/wood"
+        }
+    ],
+
+    "shapebytype": {
+        "*-north-left-*": {
+            "base": "block/woodenshutters_left",
+            "rotateY": 0
+        },
+        "*-east-left-*": {
+            "base": "block/woodenshutters_left",
+            "rotateY": 270
+        },
+        "*-south-left-*": {
+            "base": "block/woodenshutters_left",
+            "rotateY": 180
+        },
+        "*-west-left-*": {
+            "base": "block/woodenshutters_left",
+            "rotateY": 90
+        },
+        "*-north-right-*": {
+            "base": "block/woodenshutters_right",
+            "rotateY": 0
+        },
+        "*-east-right-*": {
+            "base": "block/woodenshutters_right",
+            "rotateY": 270
+        },
+        "*-south-right-*": {
+            "base": "block/woodenshutters_right",
+            "rotateY": 180
+        },
+        "*-west-right-*": {
+            "base": "block/woodenshutters_right",
+            "rotateY": 90
+        }
+    },
+    "sideopaque": {
+        "all": false
+    },
+    "textures": {
+        "all": {
+            "base": "game:block/wood/planks/{wood}1.png"
+        }
+    },
+    "drawtype": "json",
+    "solid": true,
+    "sideSolid": {
+        "all": true
+    },
+    "renderType": "opaque",
+    "attributes": {
+        "handbook": {
+
+        }
+    },
+    "combustibleProps": {
+        "burnTemperature": 600,
+        "burnDuration": 25
+    },
+    "sounds": {
+        "place": "game:block/planks",
+        "hit": "game:block/planks",
+        "break": "game:block/planks",
+        "walk": "game:walk/wood"
+    },
+    "materialDensity": 600,
+    "inventoryClassName": "Sliding Wooden Shutter",
+    "guiTransform": {
+        "origin": {
+            "x": 1,
+            "y": 0.5,
+            "z": 0.4
+        },
+        "scale": 0.84
+
+    }
+
+}
