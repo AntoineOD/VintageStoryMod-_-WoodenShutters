@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "woodenshuttersandmore",
+    "name": "slidingwoodenshutters",
+    "authors": [
+        "Joboy456"
+    ],
+    "description": "Add simple sliding wooden shutters to VS!",
+    "version": "1.1.0",
+    "dependencies": {
+        "game": ""
+    }
+}
