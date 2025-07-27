@@ -75,7 +75,14 @@
     "attributes": {
         "handbook": {
 
+        },
+        "openSoundByType": {
+            "*": "game:sounds/block/door"
+        },
+        "closeSoundByType": {
+            "*": "game:sounds/block/door"
         }
+
     },
     "combustibleProps": {
         "burnTemperature": 600,
@@ -95,7 +102,5 @@
             "z": 0.4
         },
         "scale": 0.84
-
     }
-
 }

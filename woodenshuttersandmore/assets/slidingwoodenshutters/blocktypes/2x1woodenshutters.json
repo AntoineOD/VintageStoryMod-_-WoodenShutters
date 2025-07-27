@@ -1,0 +1,193 @@
+{
+    "code": "2x1woodenshutters",
+    "class": "woodenshuttersandmore.2x1woodenshutters",
+    "entityClass": "BE2x1WoodenShutters",
+    "creativeinventory": { "general": [ "2x1woodenshutters-north-closed-*-*" ] },
+
+    "behaviors": [
+        { "name": "BlockEntityInteract" },
+        { "name": "HorizontalOrientable" },
+        {
+            "name": "Multiblock",
+            "properties": {
+                "sizex": 1,
+                "sizey": 2,
+                "sizez": 1,
+                "cposition": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        }
+    ],
+    "variantgroups": [
+        {
+            "code": "side",
+            "loadFromProperties": "abstract/horizontalorientation"
+        },
+        {
+            "code": "status",
+            "states": [ "opened", "closed" ]
+        },
+        {
+            "code": "state",
+            "states": [ "left", "half", "right" ]
+        },
+        {
+            "code": "wood",
+            "states": [ "aged" ],
+            "loadFromProperties": "game:block/wood"
+        }
+    ],
+
+    "shapebytype": {
+        "*-north-closed-left-*": {
+            "base": "block/2x1fullleftshutters_closed",
+            "rotateY": 0
+        },
+        "*-east-closed-left-*": {
+            "base": "block/2x1fullleftshutters_closed",
+            "rotateY": 270
+        },
+        "*-south-closed-left-*": {
+            "base": "block/2x1fullleftshutters_closed",
+            "rotateY": 180
+        },
+        "*-west-closed-left-*": {
+            "base": "block/2x1fullleftshutters_closed",
+            "rotateY": 90
+        },
+        "*-north-closed-right-*": {
+            "base": "block/2x1fullrightshutters_closed",
+            "rotateY": 0
+        },
+        "*-east-closed-right-*": {
+            "base": "block/2x1fullrightshutters_closed",
+            "rotateY": 270
+        },
+        "*-south-closed-right-*": {
+            "base": "block/2x1fullrightshutters_closed",
+            "rotateY": 180
+        },
+        "*-west-closed-right-*": {
+            "base": "block/2x1fullrightshutters_closed",
+            "rotateY": 90
+        },
+        "*-north-closed-half-*": {
+            "base": "block/2x1halfshutters_closed",
+            "rotateY": 0
+        },
+        "*-east-closed-half-*": {
+            "base": "block/2x1halfshutters_closed",
+            "rotateY": 270
+        },
+        "*-south-closed-half-*": {
+            "base": "block/2x1halfshutters_closed",
+            "rotateY": 180
+        },
+        "*-west-closed-half-*": {
+            "base": "block/2x1halfshutters_closed",
+            "rotateY": 90
+        },
+        "*-north-opened-left-*": {
+            "base": "block/2x1fullleftshutters_opened",
+            "rotateY": 0
+        },
+        "*-east-opened-left-*": {
+            "base": "block/2x1fullleftshutters_opened",
+            "rotateY": 270
+        },
+        "*-south-opened-left-*": {
+            "base": "block/2x1fullleftshutters_opened",
+            "rotateY": 180
+        },
+        "*-west-opened-left-*": {
+            "base": "block/2x1fullleftshutters_opened",
+            "rotateY": 90
+        },
+        "*-north-opened-right-*": {
+            "base": "block/2x1fullrightshutters_opened",
+            "rotateY": 0
+        },
+        "*-east-opened-right-*": {
+            "base": "block/2x1fullrightshutters_opened",
+            "rotateY": 270
+        },
+        "*-south-opened-right-*": {
+            "base": "block/2x1fullrightshutters_opened",
+            "rotateY": 180
+        },
+        "*-west-opened-right-*": {
+            "base": "block/2x1fullrightshutters_opened",
+            "rotateY": 90
+        },
+        "*-north-opened-half-*": {
+            "base": "block/2x1halfshutters_opened",
+            "rotateY": 0
+        },
+        "*-east-opened-half-*": {
+            "base": "block/2x1halfshutters_opened",
+            "rotateY": 270
+        },
+        "*-south-opened-half-*": {
+            "base": "block/2x1halfshutters_opened",
+            "rotateY": 180
+        },
+        "*-west-opened-half-*": {
+            "base": "block/2x1halfshutters_opened",
+            "rotateY": 90
+        }
+    },
+    "sideopaque": {
+        "all": false
+    },
+    "textures": {
+        "all": {
+            "base": "game:block/wood/planks/{wood}1.png"
+        }
+    },
+    "drawtype": "json",
+    "sideSolidByType": {
+        "*-*-opened-*-*": {
+            "solid": false,
+            "all": false
+        },
+        "*-*-closed-*-*": {
+            "solid": true,
+            "all": true
+        }
+    },
+    "renderType": "opaque",
+    "attributes": {
+        "handbook": {
+
+        },
+        "openSoundByType": {
+            "*": "game:sounds/block/door"
+        },
+        "closeSoundByType": {
+            "*": "game:sounds/block/door"
+        }
+
+    },
+    "combustibleProps": {
+        "burnTemperature": 600,
+        "burnDuration": 25
+    },
+    "sounds": {
+        "place": "game:block/planks",
+        "hit": "game:block/planks",
+        "break": "game:block/planks",
+        "walk": "game:walk/wood"
+    },
+    "materialDensity": 600,
+    "guiTransform": {
+        "origin": {
+            "x": 1,
+            "y": 0.5,
+            "z": 0.4
+        },
+        "scale": 0.84
+    }
+}
