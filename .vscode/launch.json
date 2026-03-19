@@ -1,0 +1,39 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Client",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "dotnet",
+            "args": [
+                "/home/antoineod/Documents/vintagestory/Vintagestory.dll",
+                "--tracelog",
+                "--addModPath",
+                "${workspaceFolder}/slidingwoodenshutters/bin/Debug/Mods",
+                "--addOrigin",
+                "${workspaceFolder}/slidingwoodenshutters/assets"
+            ],
+            "cwd": "/home/antoineod/Documents/vintagestory",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Server",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "dotnet",
+            "args": [
+                "/home/antoineod/Documents/vintagestory/VintagestoryServer.dll",
+                "--tracelog",
+                "--addModPath",
+                "${workspaceFolder}/slidingwoodenshutters/bin/Debug/Mods",
+                "--addOrigin",
+                "${workspaceFolder}/slidingwoodenshutters/assets"
+            ],
+            "cwd": "/home/antoineod/Documents/vintagestory",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        }
+    ]
+}
