@@ -2,36 +2,56 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Client",
+            "name": "Launch Client (Debug)",
             "type": "coreclr",
             "request": "launch",
-            "program": "dotnet",
+            "program": "/home/antoineod/Documents/vintagestory/Vintagestory",
+            "preLaunchTask": "build",
             "args": [
-                "/home/antoineod/Documents/vintagestory/Vintagestory.dll",
                 "--tracelog",
                 "--addModPath",
                 "${workspaceFolder}/slidingwoodenshutters/bin/Debug/Mods",
                 "--addOrigin",
-                "${workspaceFolder}/slidingwoodenshutters/assets"
+                "${workspaceFolder}/slidingwoodenshutters/assets",
+                "--logPath",
+                "${workspaceFolder}/slidingwoodenshutters/bin/logs"
             ],
-            "cwd": "/home/antoineod/Documents/vintagestory",
             "console": "internalConsole",
             "stopAtEntry": false
         },
         {
-            "name": "Server",
+            "name": "Launch Server",
             "type": "coreclr",
             "request": "launch",
-            "program": "dotnet",
+            "program": "/home/antoineod/Documents/vintagestory/VintagestoryServer",
+            "preLaunchTask": "build",
             "args": [
-                "/home/antoineod/Documents/vintagestory/VintagestoryServer.dll",
                 "--tracelog",
                 "--addModPath",
                 "${workspaceFolder}/slidingwoodenshutters/bin/Debug/Mods",
                 "--addOrigin",
-                "${workspaceFolder}/slidingwoodenshutters/assets"
+                "${workspaceFolder}/slidingwoodenshutters/assets",
+                "--logPath",
+                "${workspaceFolder}/slidingwoodenshutters/bin/logs"
             ],
-            "cwd": "/home/antoineod/Documents/vintagestory",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Cake Build (Package Mod)",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "${workspaceFolder}/ZZCakeBuild/CakeBuild.csproj",
+                "--configuration",
+                "Release",
+                "--",
+                "--target=Default"
+            ],
+            "cwd": "${workspaceFolder}",
             "console": "internalConsole",
             "stopAtEntry": false
         }

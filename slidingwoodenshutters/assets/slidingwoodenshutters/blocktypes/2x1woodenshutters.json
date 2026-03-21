@@ -231,7 +231,7 @@
     "renderType": "opaque",
     "attributes": {
         "handbook": {
-
+            "groupBy": [ "2x1woodenshutters-*-*-{state}-*" ]
         },
         "openSoundByType": {
             "*": "game:sounds/block/door"
