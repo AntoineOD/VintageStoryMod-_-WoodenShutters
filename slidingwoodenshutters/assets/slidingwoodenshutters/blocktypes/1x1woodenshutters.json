@@ -2,11 +2,18 @@
     "code": "1x1woodenshutters",
     "class": "woodenshuttersandmore.1x1woodenshutters",
     "entityClass": "BE1x1WoodenShutters",
-    "creativeinventory": { "general": [ "1x1woodenshutters-north-closed-*-*" ] },
-
+    "creativeinventory": {
+        "general": [
+            "1x1woodenshutters-north-closed-*-*"
+        ]
+    },
     "behaviors": [
-        { "name": "BlockEntityInteract" },
-        { "name": "HorizontalOrientable" }
+        {
+            "name": "BlockEntityInteract"
+        },
+        {
+            "name": "HorizontalOrientable"
+        }
     ],
     "collisionBoxByType": {
         "*-north-closed-*-*": {
@@ -50,39 +57,183 @@
             "z2": 0
         }
     },
-    "selectionboxByType": {
-        "*-north-*-*-*": {
-            "x1": 0,
-            "y1": 0,
-            "z1": 0,
-            "x2": 1,
-            "y2": 1,
-            "z2": 0.125
-        },
-        "*-south-*-*-*": {
-            "x1": 0,
-            "y1": 0,
-            "z1": 0.875,
-            "x2": 1,
-            "y2": 1,
-            "z2": 1
-        },
-        "*-east-*-*-*": {
-            "x1": 0.875,
-            "y1": 0,
-            "z1": 0,
-            "x2": 1,
-            "y2": 1,
-            "z2": 1
-        },
-        "*-west-*-*-*": {
-            "x1": 0,
-            "y1": 0,
-            "z1": 0,
-            "x2": 0.125,
-            "y2": 1,
-            "z2": 1
-        }
+    "selectionBoxesByType": {
+        "*-north-closed-*-*": [
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0,
+                "x2": 1,
+                "y2": 1,
+                "z2": 0.125
+            }
+        ],
+        "*-south-closed-*-*": [
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0.875,
+                "x2": 1,
+                "y2": 1,
+                "z2": 1
+            }
+        ],
+        "*-east-closed-*-*": [
+            {
+                "x1": 0.875,
+                "y1": 0,
+                "z1": 0,
+                "x2": 1,
+                "y2": 1,
+                "z2": 1
+            }
+        ],
+        "*-west-closed-*-*": [
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0,
+                "x2": 0.125,
+                "y2": 1,
+                "z2": 1
+            }
+        ],
+        "*-north-opened-*-*": [
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0,
+                "x2": 0.125,
+                "y2": 1,
+                "z2": 0.125
+            },
+            {
+                "x1": 0.875,
+                "y1": 0,
+                "z1": 0,
+                "x2": 1,
+                "y2": 1,
+                "z2": 0.125
+            },
+            {
+                "x1": 0.125,
+                "y1": 0.875,
+                "z1": 0,
+                "x2": 0.875,
+                "y2": 1,
+                "z2": 0.125
+            },
+            {
+                "x1": 0.125,
+                "y1": 0,
+                "z1": 0,
+                "x2": 0.875,
+                "y2": 0.125,
+                "z2": 0.125
+            }
+        ],
+        "*-south-opened-*-*": [
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0.875,
+                "x2": 0.125,
+                "y2": 1,
+                "z2": 1
+            },
+            {
+                "x1": 0.875,
+                "y1": 0,
+                "z1": 0.875,
+                "x2": 1,
+                "y2": 1,
+                "z2": 1
+            },
+            {
+                "x1": 0.125,
+                "y1": 0.875,
+                "z1": 0.875,
+                "x2": 0.875,
+                "y2": 1,
+                "z2": 1
+            },
+            {
+                "x1": 0.125,
+                "y1": 0,
+                "z1": 0.875,
+                "x2": 0.875,
+                "y2": 0.125,
+                "z2": 1
+            }
+        ],
+        "*-east-opened-*-*": [
+            {
+                "x1": 0.875,
+                "y1": 0,
+                "z1": 0,
+                "x2": 1,
+                "y2": 1,
+                "z2": 0.125
+            },
+            {
+                "x1": 0.875,
+                "y1": 0,
+                "z1": 0.875,
+                "x2": 1,
+                "y2": 1,
+                "z2": 1
+            },
+            {
+                "x1": 0.875,
+                "y1": 0.875,
+                "z1": 0.125,
+                "x2": 1,
+                "y2": 1,
+                "z2": 0.875
+            },
+            {
+                "x1": 0.875,
+                "y1": 0,
+                "z1": 0.125,
+                "x2": 1,
+                "y2": 0.125,
+                "z2": 0.875
+            }
+        ],
+        "*-west-opened-*-*": [
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0,
+                "x2": 0.125,
+                "y2": 1,
+                "z2": 0.125
+            },
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0.875,
+                "x2": 0.125,
+                "y2": 1,
+                "z2": 1
+            },
+            {
+                "x1": 0,
+                "y1": 0.875,
+                "z1": 0.125,
+                "x2": 0.125,
+                "y2": 1,
+                "z2": 0.875
+            },
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0.125,
+                "x2": 0.125,
+                "y2": 0.125,
+                "z2": 0.875
+            }
+        ]
     },
     "variantgroups": [
         {
@@ -91,19 +242,29 @@
         },
         {
             "code": "status",
-            "states": [ "opened", "closed" ]
+            "states": [
+                "opened",
+                "closed"
+            ]
         },
         {
             "code": "state",
-            "states": [ "left", "half", "right" ]
+            "states": [
+                "left",
+                "half",
+                "right",
+                "halftop",
+                "fulltop"
+            ]
         },
         {
             "code": "wood",
-            "states": [ "aged" ],
+            "states": [
+                "aged"
+            ],
             "loadFromProperties": "game:block/wood"
         }
     ],
-
     "shapebytype": {
         "*-north-closed-left-*": {
             "base": "block/1x1fullleftshutters_closed",
@@ -200,6 +361,70 @@
         "*-west-opened-half-*": {
             "base": "block/1x1halfshutters_opened",
             "rotateY": 90
+        },
+        "*-north-closed-fulltop-*": {
+            "base": "block/1x1fulltopshutters_closed",
+            "rotateY": 0
+        },
+        "*-east-closed-fulltop-*": {
+            "base": "block/1x1fulltopshutters_closed",
+            "rotateY": 270
+        },
+        "*-south-closed-fulltop-*": {
+            "base": "block/1x1fulltopshutters_closed",
+            "rotateY": 180
+        },
+        "*-west-closed-fulltop-*": {
+            "base": "block/1x1fulltopshutters_closed",
+            "rotateY": 90
+        },
+        "*-north-opened-fulltop-*": {
+            "base": "block/1x1fulltopshutters_opened",
+            "rotateY": 0
+        },
+        "*-east-opened-fulltop-*": {
+            "base": "block/1x1fulltopshutters_opened",
+            "rotateY": 270
+        },
+        "*-south-opened-fulltop-*": {
+            "base": "block/1x1fulltopshutters_opened",
+            "rotateY": 180
+        },
+        "*-west-opened-fulltop-*": {
+            "base": "block/1x1fulltopshutters_opened",
+            "rotateY": 90
+        },
+        "*-north-closed-halftop-*": {
+            "base": "block/1x1halftopshutters_closed",
+            "rotateY": 0
+        },
+        "*-east-closed-halftop-*": {
+            "base": "block/1x1halftopshutters_closed",
+            "rotateY": 270
+        },
+        "*-south-closed-halftop-*": {
+            "base": "block/1x1halftopshutters_closed",
+            "rotateY": 180
+        },
+        "*-west-closed-halftop-*": {
+            "base": "block/1x1halftopshutters_closed",
+            "rotateY": 90
+        },
+        "*-north-opened-halftop-*": {
+            "base": "block/1x1halftopshutters_opened",
+            "rotateY": 0
+        },
+        "*-east-opened-halftop-*": {
+            "base": "block/1x1halftopshutters_opened",
+            "rotateY": 270
+        },
+        "*-south-opened-halftop-*": {
+            "base": "block/1x1halftopshutters_opened",
+            "rotateY": 180
+        },
+        "*-west-opened-halftop-*": {
+            "base": "block/1x1halftopshutters_opened",
+            "rotateY": 90
         }
     },
     "sideopaque": {
@@ -218,7 +443,9 @@
     "renderType": "opaque",
     "attributes": {
         "handbook": {
-            "groupBy": [ "1x1woodenshutters-*-*-{state}-*" ]
+            "groupBy": [
+                "1x1woodenshutters-*-*-{state}-*"
+            ]
         },
         "openSoundByType": {
             "*": "game:sounds/block/door"
@@ -226,7 +453,6 @@
         "closeSoundByType": {
             "*": "game:sounds/block/door"
         }
-
     },
     "combustibleProps": {
         "burnTemperature": 600,
@@ -239,6 +465,7 @@
         "walk": "game:walk/wood"
     },
     "materialDensity": 600,
+    "blockMaterial": "Wood",
     "lightabsorptionByType": {
         "*-opened-*": 0,
         "*-closed-*": 32
