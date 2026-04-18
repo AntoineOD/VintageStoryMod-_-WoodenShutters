@@ -2,11 +2,18 @@
     "code": "woodenshutters",
     "class": "woodenshuttersandmore.slidingwoodenshutters",
     "entityClass": "BEWoodenShutters",
-    "creativeinventory": { "general": [ "woodenshutters-north-left-*" ] },
-
+    "creativeinventory": {
+        "general": [
+            "woodenshutters-north-left-*"
+        ]
+    },
     "behaviors": [
-        { "name": "BlockEntityInteract" },
-        { "name": "HorizontalOrientable" }
+        {
+            "name": "BlockEntityInteract"
+        },
+        {
+            "name": "HorizontalOrientable"
+        }
     ],
     "variantgroups": [
         {
@@ -15,15 +22,30 @@
         },
         {
             "code": "state",
-            "states": [ "left", "right" ]
+            "states": [
+                "left",
+                "right"
+            ]
         },
         {
             "code": "wood",
-            "states": [ "aged" ],
-            "loadFromProperties": "game:block/wood"
+            "states": [
+                "acacia",
+                "aged",
+                "birch",
+                "baldcypress",
+                "ebony",
+                "kapok",
+                "larch",
+                "maple",
+                "oak",
+                "pine",
+                "purpleheart",
+                "redwood",
+                "walnut"
+            ]
         }
     ],
-
     "shapebytype": {
         "*-north-left-*": {
             "base": "block/woodenshutters_left",
@@ -63,7 +85,7 @@
     },
     "textures": {
         "all": {
-            "base": "game:block/wood/planks/{wood}1.png"
+            "base": "slidingwoodenshutters:block/64x32/{wood}_1x2"
         }
     },
     "drawtype": "json",
@@ -73,16 +95,13 @@
     },
     "renderType": "opaque",
     "attributes": {
-        "handbook": {
-
-        },
+        "handbook": {},
         "openSoundByType": {
             "*": "game:sounds/block/door"
         },
         "closeSoundByType": {
             "*": "game:sounds/block/door"
         }
-
     },
     "combustibleProps": {
         "burnTemperature": 600,

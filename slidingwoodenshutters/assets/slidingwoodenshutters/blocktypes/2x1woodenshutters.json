@@ -2,11 +2,18 @@
     "code": "2x1woodenshutters",
     "class": "woodenshuttersandmore.2x1woodenshutters",
     "entityClass": "BE2x1WoodenShutters",
-    "creativeinventory": { "general": [ "2x1woodenshutters-north-closed-*-*" ] },
-
+    "creativeinventory": {
+        "general": [
+            "2x1woodenshutters-north-closed-*-*"
+        ]
+    },
     "behaviors": [
-        { "name": "BlockEntityInteract" },
-        { "name": "HorizontalOrientable" },
+        {
+            "name": "BlockEntityInteract"
+        },
+        {
+            "name": "HorizontalOrientable"
+        },
         {
             "name": "Multiblock",
             "properties": {
@@ -144,19 +151,38 @@
         },
         {
             "code": "status",
-            "states": [ "opened", "closed" ]
+            "states": [
+                "opened",
+                "closed"
+            ]
         },
         {
             "code": "state",
-            "states": [ "left", "half", "right" ]
+            "states": [
+                "left",
+                "half",
+                "right"
+            ]
         },
         {
             "code": "wood",
-            "states": [ "aged" ],
-            "loadFromProperties": "game:block/wood"
+            "states": [
+                "acacia",
+                "aged",
+                "birch",
+                "baldcypress",
+                "ebony",
+                "kapok",
+                "larch",
+                "maple",
+                "oak",
+                "pine",
+                "purpleheart",
+                "redwood",
+                "walnut"
+            ]
         }
     ],
-
     "shapebytype": {
         "*-north-closed-left-*": {
             "base": "block/2x1fullleftshutters_closed",
@@ -260,18 +286,20 @@
     },
     "textures": {
         "all": {
-            "base": "game:block/wood/planks/{wood}1.png"
+            "base": "slidingwoodenshutters:block/32x64/{wood}_2x1"
         }
     },
     "drawtype": "json",
     "sideSolid": {
-        "all":  false
+        "all": false
     },
     "solid": true,
     "renderType": "opaque",
     "attributes": {
         "handbook": {
-            "groupBy": [ "2x1woodenshutters-*-*-{state}-*" ]
+            "groupBy": [
+                "2x1woodenshutters-*-*-{state}-*"
+            ]
         },
         "openSoundByType": {
             "*": "game:sounds/block/door"
@@ -279,7 +307,6 @@
         "closeSoundByType": {
             "*": "game:sounds/block/door"
         }
-
     },
     "combustibleProps": {
         "burnTemperature": 600,

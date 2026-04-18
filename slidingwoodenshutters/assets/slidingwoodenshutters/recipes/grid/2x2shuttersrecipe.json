@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Half 2x2 Wooden Shutter",
+        "ingredientPattern": "_L_,_R_,___",
+        "ingredients": {
+            "L": {
+                "type": "block",
+                "code": "2x1woodenshutters-north-closed-left-*",
+                "name": "wood"
+            },
+            "R": {
+                "type": "block",
+                "code": "2x1woodenshutters-north-closed-right-*",
+                "name": "wood"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "2x2woodenshutters-north-closed-half-{wood}",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Halftop 2x2 Wooden Shutter",
+        "ingredientPattern": "_H_,_H_,___",
+        "ingredients": {
+            "H": {
+                "type": "block",
+                "code": "1x2woodenshutters-north-closed-halftop-*",
+                "name": "wood"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "2x2woodenshutters-north-closed-halftop-{wood}",
+            "quantity": 1
+        }
+    }
+]

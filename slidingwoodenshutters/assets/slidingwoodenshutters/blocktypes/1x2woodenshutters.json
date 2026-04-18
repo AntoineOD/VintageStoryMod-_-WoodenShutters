@@ -1,0 +1,359 @@
+{
+    "code": "1x2woodenshutters",
+    "class": "woodenshuttersandmore.1x2woodenshutters",
+    "entityClass": "BE1x2WoodenShutters",
+    "creativeinventory": {
+        "general": [
+            "1x2woodenshutters-north-closed-*-*"
+        ]
+    },
+    "behaviorsByType": {
+        "*-north-*": [
+            {
+                "name": "BlockEntityInteract"
+            },
+            {
+                "name": "HorizontalOrientable"
+            },
+            {
+                "name": "Multiblock",
+                "properties": {
+                    "sizex": 2,
+                    "sizey": 1,
+                    "sizez": 1,
+                    "cposition": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                }
+            }
+        ],
+        "*-east-*": [
+            {
+                "name": "BlockEntityInteract"
+            },
+            {
+                "name": "HorizontalOrientable"
+            },
+            {
+                "name": "Multiblock",
+                "properties": {
+                    "sizex": 1,
+                    "sizey": 1,
+                    "sizez": 2,
+                    "cposition": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                }
+            }
+        ],
+        "*-south-*": [
+            {
+                "name": "BlockEntityInteract"
+            },
+            {
+                "name": "HorizontalOrientable"
+            },
+            {
+                "name": "Multiblock",
+                "properties": {
+                    "sizex": 2,
+                    "sizey": 1,
+                    "sizez": 1,
+                    "cposition": {
+                        "x": 1,
+                        "y": 0,
+                        "z": 0
+                    }
+                }
+            }
+        ],
+        "*-west-*": [
+            {
+                "name": "BlockEntityInteract"
+            },
+            {
+                "name": "HorizontalOrientable"
+            },
+            {
+                "name": "Multiblock",
+                "properties": {
+                    "sizex": 1,
+                    "sizey": 1,
+                    "sizez": 2,
+                    "cposition": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 1
+                    }
+                }
+            }
+        ]
+    },
+    "collisionBoxByType": {
+        "*-north-closed-*-*": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 1,
+            "z2": 0.125
+        },
+        "*-south-closed-*-*": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0.875,
+            "x2": 1,
+            "y2": 1,
+            "z2": 1
+        },
+        "*-east-closed-*-*": {
+            "x1": 0.875,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 1,
+            "z2": 1
+        },
+        "*-west-closed-*-*": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 0.125,
+            "y2": 1,
+            "z2": 1
+        },
+        "*-*-opened-*-*": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 0,
+            "y2": 0,
+            "z2": 0
+        }
+    },
+    "selectionBoxesByType": {
+        "*-north-*-*-*": [
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0,
+                "x2": 1,
+                "y2": 0.125,
+                "z2": 0.125
+            },
+            {
+                "x1": 0,
+                "y1": 0.875,
+                "z1": 0,
+                "x2": 1,
+                "y2": 1,
+                "z2": 0.125
+            }
+        ],
+        "*-south-*-*-*": [
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0.875,
+                "x2": 1,
+                "y2": 0.125,
+                "z2": 1
+            },
+            {
+                "x1": 0,
+                "y1": 0.875,
+                "z1": 0.875,
+                "x2": 1,
+                "y2": 1,
+                "z2": 1
+            }
+        ],
+        "*-east-*-*-*": [
+            {
+                "x1": 0.875,
+                "y1": 0,
+                "z1": 0,
+                "x2": 1,
+                "y2": 0.125,
+                "z2": 1
+            },
+            {
+                "x1": 0.875,
+                "y1": 0.875,
+                "z1": 0,
+                "x2": 1,
+                "y2": 1,
+                "z2": 1
+            }
+        ],
+        "*-west-*-*-*": [
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0,
+                "x2": 0.125,
+                "y2": 0.125,
+                "z2": 1
+            },
+            {
+                "x1": 0,
+                "y1": 0.875,
+                "z1": 0,
+                "x2": 0.125,
+                "y2": 1,
+                "z2": 1
+            }
+        ]
+    },
+    "variantgroups": [
+        {
+            "code": "side",
+            "loadFromProperties": "abstract/horizontalorientation"
+        },
+        {
+            "code": "status",
+            "states": [
+                "opened",
+                "closed"
+            ]
+        },
+        {
+            "code": "state",
+            "states": [
+                "half",
+                "halftop"
+            ]
+        },
+        {
+            "code": "wood",
+            "states": [
+                "acacia",
+                "aged",
+                "birch",
+                "baldcypress",
+                "ebony",
+                "kapok",
+                "larch",
+                "maple",
+                "oak",
+                "pine",
+                "purpleheart",
+                "redwood",
+                "walnut"
+            ]
+        }
+    ],
+    "shapebytype": {
+        "*-north-closed-half-*": {
+            "base": "block/1x2halfshutters_closed",
+            "rotateY": 0
+        },
+        "*-east-closed-half-*": {
+            "base": "block/1x2halfshutters_closed",
+            "rotateY": 270
+        },
+        "*-south-closed-half-*": {
+            "base": "block/1x2halfshutters_closed",
+            "rotateY": 180
+        },
+        "*-west-closed-half-*": {
+            "base": "block/1x2halfshutters_closed",
+            "rotateY": 90
+        },
+        "*-north-opened-half-*": {
+            "base": "block/1x2halfshutters_opened",
+            "rotateY": 0
+        },
+        "*-east-opened-half-*": {
+            "base": "block/1x2halfshutters_opened",
+            "rotateY": 270
+        },
+        "*-south-opened-half-*": {
+            "base": "block/1x2halfshutters_opened",
+            "rotateY": 180
+        },
+        "*-west-opened-half-*": {
+            "base": "block/1x2halfshutters_opened",
+            "rotateY": 90
+        },
+        "*-north-closed-halftop-*": {
+            "base": "block/1x2halftopshutters_closed",
+            "rotateY": 0
+        },
+        "*-east-closed-halftop-*": {
+            "base": "block/1x2halftopshutters_closed",
+            "rotateY": 270
+        },
+        "*-south-closed-halftop-*": {
+            "base": "block/1x2halftopshutters_closed",
+            "rotateY": 180
+        },
+        "*-west-closed-halftop-*": {
+            "base": "block/1x2halftopshutters_closed",
+            "rotateY": 90
+        },
+        "*-north-opened-halftop-*": {
+            "base": "block/1x2halftopshutters_opened",
+            "rotateY": 0
+        },
+        "*-east-opened-halftop-*": {
+            "base": "block/1x2halftopshutters_opened",
+            "rotateY": 270
+        },
+        "*-south-opened-halftop-*": {
+            "base": "block/1x2halftopshutters_opened",
+            "rotateY": 180
+        },
+        "*-west-opened-halftop-*": {
+            "base": "block/1x2halftopshutters_opened",
+            "rotateY": 90
+        }
+    },
+    "textures": {
+        "all": {
+            "base": "slidingwoodenshutters:block/64x32/{wood}_1x2"
+        }
+    },
+    "drawtype": "json",
+    "sideopaque": {
+        "all": false
+    },
+    "sideSolid": {
+        "all": false
+    },
+    "solid": true,
+    "renderType": "opaque",
+    "attributes": {
+        "handbook": {
+            "groupBy": [
+                "1x2woodenshutters-*-*-{state}-*"
+            ]
+        },
+        "openSoundByType": {
+            "*": "game:sounds/block/door"
+        },
+        "closeSoundByType": {
+            "*": "game:sounds/block/door"
+        }
+    },
+    "combustibleProps": {
+        "burnTemperature": 600,
+        "burnDuration": 25
+    },
+    "sounds": {
+        "place": "game:block/planks",
+        "hit": "game:block/planks",
+        "break": "game:block/planks",
+        "walk": "game:walk/wood"
+    },
+    "materialDensity": 600,
+    "blockMaterial": "Wood",
+    "lightabsorptionByType": {
+        "*-opened-*": 0,
+        "*-closed-*": 32
+    }
+}
