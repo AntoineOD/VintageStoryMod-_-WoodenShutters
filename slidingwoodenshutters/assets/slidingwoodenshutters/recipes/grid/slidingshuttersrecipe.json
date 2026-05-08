@@ -9,9 +9,254 @@
             },
             "T": {
                 "type": "block",
-                "code": "game:trapdoor-solid-*-1", "name" : "wood"
+                "code": "game:trapdoor-solid-acacia-1",
+                "name": "wood"
             }
         },
-        "output":{"type": "block", "code": "woodenshutters-north-left-{wood}", "quantity": 1}
+        "output": {
+            "type": "block",
+            "code": "woodenshutters-north-left-acacia",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Sliding Wooden Shutter",
+        "ingredientPattern": "SSS,_T_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-aged-1",
+                "name": "wood"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "woodenshutters-north-left-aged",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Sliding Wooden Shutter",
+        "ingredientPattern": "SSS,_T_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-birch-1",
+                "name": "wood"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "woodenshutters-north-left-birch",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Sliding Wooden Shutter",
+        "ingredientPattern": "SSS,_T_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-baldcypress-1",
+                "name": "wood"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "woodenshutters-north-left-baldcypress",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Sliding Wooden Shutter",
+        "ingredientPattern": "SSS,_T_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-ebony-1",
+                "name": "wood"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "woodenshutters-north-left-ebony",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Sliding Wooden Shutter",
+        "ingredientPattern": "SSS,_T_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-kapok-1",
+                "name": "wood"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "woodenshutters-north-left-kapok",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Sliding Wooden Shutter",
+        "ingredientPattern": "SSS,_T_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-larch-1",
+                "name": "wood"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "woodenshutters-north-left-larch",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Sliding Wooden Shutter",
+        "ingredientPattern": "SSS,_T_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-maple-1",
+                "name": "wood"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "woodenshutters-north-left-maple",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Sliding Wooden Shutter",
+        "ingredientPattern": "SSS,_T_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-oak-1",
+                "name": "wood"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "woodenshutters-north-left-oak",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Sliding Wooden Shutter",
+        "ingredientPattern": "SSS,_T_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-pine-1",
+                "name": "wood"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "woodenshutters-north-left-pine",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Sliding Wooden Shutter",
+        "ingredientPattern": "SSS,_T_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-purpleheart-1",
+                "name": "wood"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "woodenshutters-north-left-purpleheart",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Sliding Wooden Shutter",
+        "ingredientPattern": "SSS,_T_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-redwood-1",
+                "name": "wood"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "woodenshutters-north-left-redwood",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Sliding Wooden Shutter",
+        "ingredientPattern": "SSS,_T_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-walnut-1",
+                "name": "wood"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "woodenshutters-north-left-walnut",
+            "quantity": 1
+        }
     }
 ]

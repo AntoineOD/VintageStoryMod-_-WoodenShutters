@@ -17,7 +17,11 @@
                 "${workspaceFolder}/slidingwoodenshutters/bin/logs"
             ],
             "console": "internalConsole",
-            "stopAtEntry": false
+            "stopAtEntry": false,
+            "env": {
+                "DOTNET_ROOT": "/home/antoineod/.dotnet",
+                "PATH": "/home/antoineod/.dotnet:${env:PATH}"
+            }
         },
         {
             "name": "Launch Server",
@@ -35,7 +39,11 @@
                 "${workspaceFolder}/slidingwoodenshutters/bin/logs"
             ],
             "console": "internalConsole",
-            "stopAtEntry": false
+            "stopAtEntry": false,
+            "env": {
+                "DOTNET_ROOT": "/home/antoineod/.dotnet",
+                "PATH": "/home/antoineod/.dotnet:${env:PATH}"
+            }
         },
         {
             "name": "Cake Build (Package Mod)",
@@ -53,7 +61,11 @@
             ],
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
-            "stopAtEntry": false
+            "stopAtEntry": false,
+            "env": {
+                "DOTNET_ROOT": "/home/antoineod/.dotnet",
+                "PATH": "/home/antoineod/.dotnet:${env:PATH}"
+            }
         }
     ]
 }

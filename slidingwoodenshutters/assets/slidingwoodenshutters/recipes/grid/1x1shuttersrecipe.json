@@ -9,7 +9,7 @@
             },
             "T": {
                 "type": "block",
-                "code": "game:trapdoor-solid-*-1",
+                "code": "game:trapdoor-solid-acacia-1",
                 "name": "wood"
             },
             "N": {
@@ -19,7 +19,7 @@
         },
         "output": {
             "type": "block",
-            "code": "1x1woodenshutters-north-closed-left-{wood}",
+            "code": "1x1woodenshutters-north-closed-left-acacia",
             "quantity": 1
         }
     },
@@ -33,7 +33,7 @@
             },
             "T": {
                 "type": "block",
-                "code": "game:trapdoor-solid-*-1",
+                "code": "game:trapdoor-solid-acacia-1",
                 "name": "wood"
             },
             "N": {
@@ -43,7 +43,7 @@
         },
         "output": {
             "type": "block",
-            "code": "1x1woodenshutters-north-closed-right-{wood}",
+            "code": "1x1woodenshutters-north-closed-right-acacia",
             "quantity": 1
         }
     },
@@ -57,7 +57,7 @@
             },
             "T": {
                 "type": "block",
-                "code": "game:trapdoor-solid-*-1",
+                "code": "game:trapdoor-solid-acacia-1",
                 "name": "wood"
             },
             "N": {
@@ -67,7 +67,871 @@
         },
         "output": {
             "type": "block",
-            "code": "1x1woodenshutters-north-closed-half-{wood}",
+            "code": "1x1woodenshutters-north-closed-half-acacia",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Left 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NT_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-aged-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-left-aged",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Right 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,_TN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-aged-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-right-aged",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Half 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NTN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-aged-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-half-aged",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Left 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NT_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-birch-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-left-birch",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Right 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,_TN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-birch-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-right-birch",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Half 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NTN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-birch-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-half-birch",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Left 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NT_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-baldcypress-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-left-baldcypress",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Right 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,_TN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-baldcypress-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-right-baldcypress",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Half 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NTN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-baldcypress-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-half-baldcypress",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Left 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NT_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-ebony-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-left-ebony",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Right 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,_TN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-ebony-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-right-ebony",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Half 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NTN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-ebony-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-half-ebony",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Left 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NT_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-kapok-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-left-kapok",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Right 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,_TN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-kapok-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-right-kapok",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Half 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NTN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-kapok-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-half-kapok",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Left 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NT_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-larch-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-left-larch",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Right 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,_TN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-larch-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-right-larch",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Half 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NTN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-larch-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-half-larch",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Left 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NT_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-maple-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-left-maple",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Right 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,_TN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-maple-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-right-maple",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Half 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NTN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-maple-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-half-maple",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Left 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NT_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-oak-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-left-oak",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Right 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,_TN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-oak-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-right-oak",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Half 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NTN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-oak-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-half-oak",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Left 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NT_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-pine-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-left-pine",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Right 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,_TN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-pine-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-right-pine",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Half 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NTN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-pine-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-half-pine",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Left 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NT_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-purpleheart-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-left-purpleheart",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Right 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,_TN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-purpleheart-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-right-purpleheart",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Half 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NTN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-purpleheart-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-half-purpleheart",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Left 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NT_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-redwood-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-left-redwood",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Right 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,_TN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-redwood-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-right-redwood",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Half 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NTN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-redwood-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-half-redwood",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Left 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NT_,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-walnut-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-left-walnut",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Right 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,_TN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-walnut-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-right-walnut",
+            "quantity": 1
+        }
+    },
+    {
+        "name": "Half 1x1 Wooden Shutter",
+        "ingredientPattern": "SSS,NTN,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:trapdoor-solid-walnut-1",
+                "name": "wood"
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "1x1woodenshutters-north-closed-half-walnut",
             "quantity": 1
         }
     }
